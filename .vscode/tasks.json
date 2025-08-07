@@ -4,8 +4,10 @@
         {
             "label": "Python(シングルケース)",
             "type": "shell",
-            "command": "python3",
+            "command": "uv",
             "args": [
+                "run",
+                "python",
                 "${WORKSPACE_DIR}/run/single_run_python.py"
             ],
             "problemMatcher": [],
@@ -17,8 +19,10 @@
         {
             "label": "Python(マルチケース)",
             "type": "shell",
-            "command": "python3",
+            "command": "uv",
             "args": [
+                "run",
+                "python",
                 "${WORKSPACE_DIR}/run/multi_run_python.py"
             ],
             "problemMatcher": [],
